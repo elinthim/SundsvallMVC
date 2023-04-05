@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "CV";
+
+    var hello = "<strong>Goday to you maddamee</strong>";
+}
+
+<h1>CV</h1>
+<p>Systemutvecklare.net</p>
+<p>@hello</p>
+<p>@Html.Raw(hello)</p>
+
+@{
+    var name = "Bo-Katan";
+}
+Hello, @(name.Substring(0, 4))un. Your age is: <b>@(41-20).</b>
+______________________________________________________________________
+
